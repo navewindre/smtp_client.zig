@@ -1,7 +1,9 @@
 # SMTP Client for Zig
 
 Fork of `smtp_client.zig` by Karl Seguin
+
 Should support TLSv1.2 and most providers.
+
 TLSv1.2 support taken from https://github.com/melonedo/zig-tls12
 
 The library supports the `PLAIN`, `LOGIN` and `CRAM-MD5` mechanisms of the `AUTH` extension.
@@ -12,7 +14,7 @@ Add this to your build.zig.zon
 ```zig
 .dependencies = .{
     .smtp_client = .{
-        .url = "https://github.com/karlseguin/smtp_client.zig/archive/refs/heads/master.tar.gz",
+        .url = "git+https://github.com/navewindre/smtp_client.zig",
         //the correct hash will be suggested by zig
     }
 }
