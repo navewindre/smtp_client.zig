@@ -1,5 +1,5 @@
 const std = @import("std");
-const Bundle = @import( "crypto/Bundle.zig" );
+const Bundle = std.crypto.Certificate.Bundle;
 
 const Allocator = std.mem.Allocator;
 

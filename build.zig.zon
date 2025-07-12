@@ -1,5 +1,6 @@
 .{
-    .name = "smtp_client",
+    .fingerprint = 0x8a5a353f6b3802fa,
+    .name = .smtp_client,
     .version = "0.0.1",
     .paths = .{""},
 }
